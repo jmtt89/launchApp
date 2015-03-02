@@ -1,25 +1,25 @@
-var appAvailability = {
+var launchApp = {
     
-    check: function(urlScheme, successCallback, errorCallback) {
+    launch: function(successCallback, errorCallback, urlScheme, url) {
         cordova.exec(
             successCallback,
             errorCallback,
-            "AppAvailability",
-            "checkAvailability",
-            [urlScheme]
+            "launchApp",
+            "launchApp",
+            [urlScheme,url]
         );
     },
     
-    checkBool: function(urlScheme, callback) {
+    check: function(successCallback, errorCallback, urlScheme) {
         cordova.exec(
             function(success) { callback(success); },
             function(error) { callback(error); },
-            "AppAvailability",
-            "checkAvailability",
+            "launchApp",
+            "checkApp",
             [urlScheme]
         );
     }
     
 };
 
-module.exports = appAvailability;
+module.exports = launchApp;

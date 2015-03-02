@@ -1,4 +1,4 @@
-package com.ohh2ahh.appavailability;
+package com.ogangi.launchapp;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
@@ -8,7 +8,7 @@ import org.json.JSONException;
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-public class AppAvailability extends CordovaPlugin {
+public class LaunchApp extends CordovaPlugin {
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if(action.equals("checkAvailability")) {

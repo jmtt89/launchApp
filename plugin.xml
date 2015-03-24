@@ -2,13 +2,13 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="com.ogangi.launchapp"
-        version="0.0.1">
+        version="0.5.0">
     
     <name>launchApp</name>
     
-    <description>This plugin for Cordova and PhoneGap allows you to check if an app is installed. It requires an URI Scheme (iOS) or a Package Name (Android).</description>
+    <description>This plugin for Cordova and PhoneGap allows you to check if an app is installed and launch it. It requires an URI Scheme (iOS) or a Package Name (Android).</description>
     
-    <keywords>Cordova,PhoneGap,plugin,app,availability,installed, URIScheme,URI,Scheme,PackageName,Package,Name,iOS,Android</keywords>
+    <keywords>Cordova,PhoneGap,plugin,app,launch,installed,URIScheme,URI,Scheme,iOS</keywords>
     
     <license>MIT</license>
     

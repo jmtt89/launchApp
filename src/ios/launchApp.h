@@ -4,4 +4,6 @@
 
 - (void)launchApp:(CDVInvokedUrlCommand*)command;
 
+- (void)checkApp:(CDVInvokedUrlCommand*)command;
+
 @end

@@ -72,12 +72,13 @@ launchApp.check(
 
 
 ## 4. Some URI Schemes
-    http://wiki.akosma.com/IPhone_URL_Schemes
+check [this link](http://wiki.akosma.com/IPhone_URL_Schemes)
 
-## 6. Angular/Ionic
-    If you using Angular or Ionic, you need add this service in app.js  
+## 5. Angular/Ionic
 
-'''javascript
+If you using Angular or Ionic, you need add this service in app.js  
+
+```javascript
     //MAIN MODULE
     angular.module('myModule', ['ionic','starter.controllers',...])
     ...
@@ -100,10 +101,10 @@ launchApp.check(
     //end Service to add
     ...
     ;
-'''
+```
 
 
-## 5. License
+## 6. License
 
 [The MIT License (MIT)](http://www.opensource.org/licenses/mit-license.html)
 

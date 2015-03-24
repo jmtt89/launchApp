@@ -77,7 +77,8 @@ launchApp.check(
 ## 6. Angular/Ionic
     If you using Angular or Ionic, you need add this service in app.js  
 
-'''//MAIN MODULE
+'''javascript
+    //MAIN MODULE
     angular.module('myModule', ['ionic','starter.controllers',...])
     ...
     //Service to add
